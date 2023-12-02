@@ -1,0 +1,76 @@
+/* Categories.css */
+
+/* Header styles */
+.header {
+  background-color: #292b2c;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Carousel styles */
+.categoryCarousel {
+  margin-top: 20px;
+  height: 100vh; /* Set carousel height to full viewport height */
+}
+
+.carousel-inner {
+  border-radius: 10px;
+  overflow: hidden;
+  height: 100%; /* Set carousel inner height to full parent height */
+}
+
+.carousel-item {
+  text-align: center;
+  height: 100%; /* Set carousel item height to full parent height */
+}
+
+/* Category styles */
+.category {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  height: 100%; /* Set category height to full parent height */
+}
+
+.category:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.category h2 {
+  color: #292b2c;
+}
+
+.category a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #292b2c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.category a:hover {
+  background-color: #1d1e1e;
+}
+
+/* Additional style for full-page layout */
+.fullPage {
+  margin: 0;
+  padding: 0;
+}
+.category {
+  width: 40px; /* Set the width of the container */
+}
+
+img {
+  width: 28%; /* Take up 100% of the container's width */
+  height: auto; /* Maintain aspect ratio */
+}
